@@ -1,0 +1,4 @@
+This page returns the first 1,000,000 digits of Pi, as an HTTP header. You can
+issue a HEAD command from Firefox's console as so:
+
+fetch("", {method: "HEAD"}).then(console.log)
